@@ -1,3 +1,368 @@
 /*
  * Estilos de tu proyecto
  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+header{
+	background: #2c3e50;
+	color: white;
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+}
+.menu{
+    width:100%;
+    padding: 0;
+    margin: 0px auto;
+}
+.title-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin:0px;
+    padding-left: 150px;
+    top:12.5px;
+	position:relative;
+	 
+}    
+       
+li{
+	display: inline-block;
+	position: relative;
+	left:70%;
+	margin: 0px;
+	padding-left:25px;
+    bottom: 18px;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 15px;
+} 
+
+li:hover {
+    color:#18bc9c;
+}
+
+.container-one{
+    display: inline-block;
+	text-align: center;
+	width: 1800px;
+	height: 650px;
+	background: #18bc9c;
+	color: white;
+	padding-top:  40px;
+	margin-top:60px;
+	font-size: 50px;
+}
+.image1{
+	margin:auto;;
+	width: 20%;
+	height:20%;
+}
+
+
+.star-1:before, .star-1:after{
+	content: "";
+    display:inline-block;
+    border: 4px solid white;
+    width:100px;
+	margin:10px;
+	padding:0px;
+}	
+
+.p1{
+	font-family:'Montserrat', sans-serif;
+	font-size:28px; 
+	font-style: bold;
+	padding-top:30px;
+	text-align:center;
+}
+.title-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top:50px;
+    text-align: center;
+}
+
+.container-two {
+	display: inline-block;
+	text-align: center;
+	width: 1800px;
+	height: 100%;
+}
+.container-two ul {
+	display: inline-block;
+	text-align: center;
+    list-style:none;
+   	width: 100%;
+}
+.star-2{
+	
+	padding-top:10px; 
+    padding: 0;
+    text-align: center;
+}
+
+.star-2:before, .star-2:after{
+	content: "";
+    display:inline-block;
+    border: 4px solid black;
+    width:100px;
+	margin:10px;
+}
+
+div.portfolio{
+    width: 350px;
+    height: 350px;
+    float: left;
+	padding-top: 30px;
+	margin-left: 160px;
+}
+
+div.portfolio img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 100%;
+	position: relative;
+	cursor:pointer;  
+}
+
+.container-three{
+	background:#18bc9c;
+    margin-top: 10px;
+	display: inline-block;
+	text-align: center;
+	width: 1800px;
+	height: 100%;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	padding-top:50px; 
+}
+.star-3:before, .star-3:after{
+	
+	content: "";
+    display:inline-block;
+    border: 4px solid white;
+    width:100px;
+	margin:10px;
+	padding:0px;
+}
+.title-3{
+	font-family:'Montserrat', sans-serif;
+	font-size:40px;
+}	
+
+.text{
+	
+	column-count: 2;
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	display:inline-block;
+	margin-top:40px; 
+}
+.p2{
+	padding-bottom: 1.5%;
+}
+
+.download{
+	border: 2px solid white;
+	width: 260px;
+	height:50px ;
+	color: white;
+    position: relative;
+    left: 42%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin: 50px  10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.download p,.downloadi{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.fa-download{
+		 border: 2 solid white;
+}
+
+.container-four{
+	display: inline-block;
+	width: 1800px;
+	height: 800px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.title-4{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 40px;
+}
+
+.star-4:before, .star-4:after{
+	content: "";
+    display:inline-block;
+	border: 4px solid black;
+    width:100px;
+	margin:10px;
+	padding:0px;
+}
+}
+ul{
+    list-style:none;
+	color:#868E96;
+	display: inline-block;
+	
+}
+
+#contacMe{
+	font-family: Montserrat;
+	color: #333333;
+	position:relative;
+}
+  
+#contacMe > div:first-child{
+	font-size: 38px;
+	font-weight: bolder;
+}
+  
+#contacMe > div:nth-child(2) > div:nth-child(2) >div{
+	background-color: #333;
+}
+  
+
+#contacMe > div:nth-child(3) > div:nth-child(2) > form > input {
+	width: 100%;
+	margin: 20px;
+	border: none;
+	font-size: 30px;
+	margin-left:500px;
+	margin-top: 20px;
+
+}
+  #contacMe > div:nth-child(3) > div:nth-child(2) > form > div {
+	width: 800px;
+	height: 2px;
+	margin-left: 500px;
+	background-color: #EEE;
+  }
+  #contacMe > div:nth-child(3) > div:nth-child(2) > form > textarea {
+	width: 900px;
+	height:200px;
+	background-color: transparent;
+	border: none;
+	font-size: 30px;
+	float: left;
+	font-family: Montserrat;
+	margin-left:490px;
+	margin-top:20px;
+}
+#contacMe > div:nth-child(3) > div:nth-child(2) > form > textarea:hover {
+	outline: none;
+}
+  
+#contacMe > div:nth-child(3) > div:nth-child(2) > form > input:focus {
+	outline: none;
+}
+button{
+    
+	width: 80px;
+	height: 60px;
+	text-align: center;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-size: 100%;
+	display: block;
+	background-color:#18bc9c;
+	color: white;
+	position: absolute;
+	margin-left: 330px;
+	margin-top: 250px;
+}
+
+footer{
+	background: #2C3E50;
+	color:white;
+ 	width: 1800px;
+	padding: 30px;
+	position: relative;	
+}
+	
+.titles{
+	float-left;
+	margin: 2em 2em;
+    display: block;
+    margin: 20px;
+	padding: 10px;
+	height: 240px;
+}
+.L1{
+ position: absolute;
+ float: left;
+ left:150px;
+ padding-top: 0px;
+ /*outline: 1px solid red;*/
+ margin-bottom: 10px;
+ text-align: center;
+ font-size: 23px;
+ font-family:'Lato', sans-serif;;
+}
+.L2{
+ position: absolute;
+ float: left;
+ left:700px;
+ padding-top: 0px;
+ /*outline: 1px solid yellow;*/
+ margin-bottom: 10px;
+ text-align: center;
+ font-size: 23px;
+ font-family:'Lato', sans-serif;
+
+
+}
+.L3{
+ position: absolute;
+ float: left;
+ left:1200px;
+ padding-bottom:20px;
+ /*outline: 1px solid green;*/
+ margin-bottom:10px;
+ text-align: center;
+ font-size: 23px;
+ font-family:'Lato', sans-serif;
+ }
+.L4{
+ position: absolute;
+ float: left;
+ left: 700px;
+ margin-top: 200px;
+ font-size: 23px;
+ font-family:'Lato', sans-serif;;
+}
+.px{
+	font-size: 28px;
+	color:#18bc9c;
+}
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-dribbble{
+ width: 70px;
+ height: 70px;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+
+
+
+ 
